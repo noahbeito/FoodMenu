@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+</head>
+<body>
+    <label for="category">Select a category:</label>
+    <select id="category" onchange="displayCategoryOptions()">
+        <option value="none" disabled selected hidden>Pick a food option</option>
+        <option value="appetizers">Appetizers</option>
+        <option value="entrees">Entrees</option>
+        <option value="desserts">Desserts</option>
+        <option value="drinks">Drinks</option>
+    </select>
+
+    <ul id="categoryOptions"></ul>
+    <script src="menu.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>

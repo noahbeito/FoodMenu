@@ -1,0 +1,38 @@
+let menu = {
+    drinks: [
+        "Water",
+        "Coffee",
+        "Tea",
+        "Soda",
+        "Juice",
+        "Milk",
+        "Gargle Blaster",
+        "Ketchup",
+    ],    
+    appetizers: [
+        "Salad",
+        "Soup",
+        "Bread",
+        "Cheese",
+        "Fruit",
+        "Vegetables",
+    ],
+    entrees: [
+        "Chicken w/ Ketchup",
+        "Beef w/ Ketchup",
+        "Pork w/ Ketchup",
+        "Fish w/ Ketchup",
+        "Pasta w/ Ketchup",
+        "Rice w/ Ketchup",
+        "Pizza w/ Ketchup",
+    ],
+    desserts: [
+        "Cake",
+        "Pie",
+        "Ice Cream",
+        "Cookies",
+        "Candy",
+        "Pudding",
+        "Fruit",
+    ],
+}
